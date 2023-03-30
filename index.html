@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/index-style.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container d-flex">
+    <header class="d-flex">
+      <span>Currency Converter</span>
+    </header>
+    <div action="#" method="#" class="form d-flex">
+      <div class="php-container relative form-items form-items1">
+        <label for="php" class="absolute">₱</label>
+        <input type="number" name="php" id="php">
+        
+      </div>
+      <div class="form-items ">
+        <button onClick="convertoUsd()">
+          $ USD
+        </button>
+        <button onClick="convertoEur()">
+          € EUR
+        </button">
+        <button onClick="convertoGbp()">
+          £ GBP
+        </button >
+        <button onClick="convertoJpy()">
+          ¥ JPY
+        </button >
+      </div>
+      <div class="form-items form-items3">
+        <span id="result"></span>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/index-script.js"></script>
+</body>
+</html>

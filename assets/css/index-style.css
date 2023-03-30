@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+button , input {
+  color: #333;
+  margin: 0 1rem;
+}
+button {
+  box-shadow: 0 0 3px black;
+  border-radius: 10px;
+  border: 0;
+  width: 4rem;
+}
+input {
+  background-color: transparent;
+  border: 0;
+  color: whitesmoke;
+}
+input:focus {
+  outline: 0;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.php-container label {
+  color: whitesmoke;
+  left: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+  border: 1px solid whitesmoke;
+  justify-content: center;
+}
+header span {
+  font-size: 2rem;
+  
+}
+.form {
+  width: 80%;
+  border: 1px solid whitesmoke;
+  padding: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0;
+}
+.form-items {
+  margin-bottom: 2rem;
+}
+.form-items1 {
+  border-bottom: 1px solid whitesmoke;
+}
+.form-items3 {
+  border-bottom: 1px solid whitesmoke;
+  min-width: 200px;
+}
